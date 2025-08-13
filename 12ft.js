@@ -1,1 +1,3 @@
-javascript:(function()%7Blocation.assign("https%3A%2F%2F12ft.io%2F"%2Bwindow.location.href)%7D)()
+javascript: (function() {
+    location.assign(`https://12ft.io/${window.location.href}`)
+})()
